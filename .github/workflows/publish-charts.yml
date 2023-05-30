@@ -29,4 +29,4 @@ jobs:
         with:
             charts_repo_url: djh00t.github.io/charts
         env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_TOKEN: "${{ secrets.GHCR_TOKEN }}"
